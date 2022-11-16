@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(17, 17, 17);
+    color: white;
+    font-family: Ubuntu mono, Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+text-center {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#table-of-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.section {
+    width: 700px;
+}
+
+div.section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section {
+    border-radius: 10px;
+    background-color: black;
+    padding: 20px;
+    margin: 50px;
+}
