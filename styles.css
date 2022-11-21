@@ -91,3 +91,11 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+th, td {
+    text-align: left;
+    width: calc(100% / 3);
+    vertical-align: baseline;
+    background-color: rgba(255, 255, 255, 0.322);
+    padding: 5px;
+}
