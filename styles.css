@@ -97,5 +97,21 @@ th, td {
     width: calc(100% / 3);
     vertical-align: baseline;
     background-color: rgba(255, 255, 255, 0.322);
-    padding: 5px;
+    padding: 10px;
+}
+
+tbody tr:nth-child(1) :nth-child(1) {
+    border-radius: 10px 0px 0px 0px;
+}
+
+tbody tr:nth-child(1) :nth-child(3) {
+    border-radius: 0px 10px 0px 0px;
+}
+
+tbody tr:last-child :nth-child(1) {
+    border-radius: 0px 0px 0px 10px;
+}
+
+tbody tr:last-child :last-child {
+    border-radius: 0px 0px 10px 0px;
 }
