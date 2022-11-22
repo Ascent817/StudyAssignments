@@ -1,5 +1,7 @@
 body {
-    background-color: rgb(17, 17, 17);
+    /* background-color: rgb(17, 17, 17); */
+    /* Repeating a seamless background*/
+    background-image: url(./abstract_geometric25_generated.jpg);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 100px;
@@ -50,10 +52,10 @@ div.section-container {
 
 body {
     /* background: linear-gradient(320deg, #f27121, #e94057, #8a2387); */
-    background: linear-gradient(320deg, #242424, #000e5e, #440055);
-    background-size: 400% 400%;
+    /* background: linear-gradient(320deg, #242424, #000e5e, #440055); */
+    /* background-size: 400% 400%; */
 
-    animation: gradient-move 8s ease infinite;
+    /* animation: gradient-move 8s ease infinite; */
 }
 
 @keyframes gradient-move {
