@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Study Assignments</title>
+    <title>Study Assignments by Varun Pradeep</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
 
@@ -26,7 +26,6 @@
             <a href="#early-america">Early America</a>
             <a href="#silk-road">The Silk Road</a>
             <a href="#early-china">Early China</a>
-            <a href="./dbq.html">Sample DBQ</a>
         </div>
     </div>
     <div class="section-container">
@@ -393,13 +392,49 @@
             </p>
             <h3>Chinese Influence</h3>
             <h4>Korea</h4>
-            <p>Korea sought to mimic China, but the examination system they set up were less prominent than those in China. Additionally, Korea's women lost freedoms from the influence of the patriarchal Confucian ideas.</p>
+            <p>Korea sought to mimic China, but the examination system they set up were less prominent than those in
+                China. Additionally, Korea's women lost freedoms from the influence of the patriarchal Confucian ideas.
+            </p>
             <h4>Japan</h4>
-            <p>Japan never had a strong central political center, and so wasn't so susceptible to the Chinese way of government. Howerever, Buddhism spread into Japan via Korea, which was spread from China. Therefore, China did help to change the religious composition of Japan.</p>
+            <p>Japan never had a strong central political center, and so wasn't so susceptible to the Chinese way of
+                government. Howerever, Buddhism spread into Japan via Korea, which was spread from China. Therefore,
+                China did help to change the religious composition of Japan.</p>
             <h4>The Steppe</h4>
-            <p>China was often threatened millitarily by the nomadic peoples of the steppe, but China needed the horses, fur, and other goods from the north. China sought to control them through the tributary system, but often ended up giving them "gifts" to keep them from attacking China.</p>
+            <p>China was often threatened millitarily by the nomadic peoples of the steppe, but China needed the horses,
+                fur, and other goods from the north. China sought to control them through the tributary system, but
+                often ended up giving them "gifts" to keep them from attacking China.</p>
+        </div>
+        <div class="section" id="islamic-caliphates-section">
+            <a id="islamic-caliphates"></a>
+            <h2>Islamic Caliphates</h2>
+            <p>Assignments:</p>
+            <ul>
+                <li>The Ways of the World, pages 363-398</li>
+            </ul>
+            <h3>The Origins of Islam</h3>
+            <p>Islam is an Abrahamic religion like Judaism and Christianity. Muslims believe in Jesus Christ and Moses,
+                as well as other Jewish concepts. However, they believe that the prophet Muhammad was the last and final
+                prophet. Muhammad </p>
         </div>
     </div>
+    <script async="false">
+        // Create divs and randomly scatter and size them with background images in the assets folder.
+        let body = document.body,
+            html = document.documentElement;
+        let height = Math.max(body.scrollHeight, body.offsetHeight,
+            html.clientHeight, html.scrollHeight, html.offsetHeight);
+        for (let i = 0; i < 30; i++) {
+            let div = document.createElement('div');
+            div.classList.add('circle');
+            div.style.setProperty('--time-delay', Math.random() * 10 + 's');
+            div.style.top = Math.random() * height + 'px';
+            div.style.left = Math.random() * 80 + '%';
+            div.style.width = 200 + 'px';
+            div.style.height = 200 + 'px';
+            div.style.backgroundImage = `url(./assets/${Math.floor(Math.random() * 4) + 1}.svg)`;
+            document.body.appendChild(div);
+        }
+    </script>
 </body>
 
 </html>

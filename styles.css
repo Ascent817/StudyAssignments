@@ -1,5 +1,7 @@
 body {
-    background-image: url(./abstract_geometric25_generated.jpg);
+    /* background-image: url(./abstract_geometric25_generated.jpg); */
+    /* background-image: url(./glassmorphism-bg.PNG); */
+    background-color: rgb(26, 26, 26);
 
     /* background: linear-gradient(320deg, #f27121, #e94057, #8a2387); */
     /* background: linear-gradient(320deg, #242424, #000e5e, #440055); */
@@ -12,6 +14,8 @@ body {
     margin-left: 100px;
     margin-right: 100px;
     zoom: 150%;
+
+    overflow-x: hidden;
 }
 
 text-center {
@@ -129,4 +133,34 @@ tbody tr:last-child :last-child {
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: inset #ffffff75 0px 0px 20px 0px;
+}
+
+.circle {
+    position: absolute;
+    z-index: -1;
+    animation: circle-float 20000ms ease-in-out var(--time-delay) infinite;
+    transform: translate(-100px, 0px);
+}
+
+/* Circle float animation */
+@keyframes circle-float {
+    0% {
+        transform: translate(-100px, 0px);
+    }
+
+    25% {
+        transform: translate(0px, 100px);
+    }
+
+    50% {
+        transform: translate(100px, 0px);
+    }
+
+    75% {
+        transform: translate(0px, -100px);
+    }
+    
+    100% {
+        transform: translate(-100px, 0px);
+    }
 }
